@@ -1,0 +1,23 @@
+[project]
+name = "hard-wordle"
+description = "Hard mode Wordle game environment with enforced letter inclusion rules."
+tags = ["placeholder-tag", "train", "eval", "hard-mode"]
+version = "0.1.1"
+requires-python = ">=3.11"
+dependencies = [
+    "verifiers>=0.1.3.post0",
+    "nltk",
+    "textarena",
+    "datasets",
+    "pytest",
+    "pyarrow",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["hard_wordle.py"]
+
+
