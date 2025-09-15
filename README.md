@@ -1,4 +1,6 @@
-# hard-wordle
+# Hard Mode Wordle Environment for LLM Evaluation
+A challenging Wordle variant that enforces strict letter inclusion rules. The LLM must include all previously identified correct letters (green/yellow) in subsequent guesses, making it significantly harder than standard Wordle. Perfect for testing LLM reasoning and constraint-following abilities with the verifiers framework.
+<br>[Link to Prime Intellect environment](https://app.primeintellect.ai/dashboard/environments/tnmy/hard-wordle)
 
 ### Overview
 - **Environment ID**: `hard-wordle`
